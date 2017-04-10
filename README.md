@@ -8,3 +8,5 @@
 ![](http://tianyuyun.qiniudn.com/jty3.png)
 ![](http://tianyuyun.qiniudn.com/jty4.png)
 ![](http://tianyuyun.qiniudn.com/jty5.png)
+
+------ jdk 版本设置,UserAgentUtils版本引用.

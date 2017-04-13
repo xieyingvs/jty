@@ -46,6 +46,7 @@ public class UserController extends BaseController {
 	 */
 	@RequestMapping(method = RequestMethod.GET)
 	public String list() {
+		System.out.println("system/userList");
 		return "system/userList";
 	}
 

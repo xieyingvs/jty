@@ -27,6 +27,7 @@ public class LoginController{
 	@RequestMapping(value="login",method = RequestMethod.GET)
 	public String login() {
 		Subject subject = SecurityUtils.getSubject();
+		System.out.println(Global.getAdminPath());
 		if(subject.isAuthenticated()||subject.isRemembered()){
 			return "redirect:"+Global.getAdminPath();
 		} 
